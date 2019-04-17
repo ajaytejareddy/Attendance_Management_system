@@ -131,4 +131,3 @@ class Train_Student(QMainWindow):
         self.mainwindow=Admin_fun()
         self.mainwindow.show()
         self.close()
-

@@ -13,6 +13,7 @@ import requests
 import cv2
 import os
 
+
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-q", "--query", required=True,

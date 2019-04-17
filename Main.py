@@ -5,6 +5,7 @@ from PyQt5.QtCore import pyqtSlot
 import GUI_admin as admin
 import GUI_Lecutrer as lect
 
+
 class App(QMainWindow):
 
     def __init__(self):

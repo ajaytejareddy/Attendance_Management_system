@@ -189,6 +189,7 @@ def start():
 		writer.release()
 
 
+
 def stop():
 	args["display"]=0
 	#print(attendance, held)

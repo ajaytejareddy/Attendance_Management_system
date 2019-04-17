@@ -76,5 +76,3 @@ def add(name):
         # When everything done, release the capture
         cap.release()
         cv.destroyAllWindows()
-if __name__ == '__main__':
-    add("jyothi")

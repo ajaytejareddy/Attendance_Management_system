@@ -50,4 +50,3 @@ class Login_Admin(QMainWindow):
                 self.cams = aw.Admin_fun()
                 self.cams.show()
                 self.close()
-

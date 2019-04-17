@@ -108,8 +108,3 @@ def Firebase_attendance(a):
     print("sucessfully uploaded to database")
     att = root.child('attendance').set(fb_attdb)
     #att = root.child('attendance').update(a)
-
-
-if __name__ == '__main__':
-    addstudent("ajay","15261A1241")
-    #Firestore()

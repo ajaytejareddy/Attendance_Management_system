@@ -62,5 +62,6 @@ def train():
 	f.write(pickle.dumps(data))
 	f.close()
 
+
 if __name__ == '__main__':
 	train()
