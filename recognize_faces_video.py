@@ -194,7 +194,3 @@ def stop():
 	#print(attendance, held)
 	cv2.destroyAllWindows()
 	return attendance,held
-
-
-if __name__ == '__main__':
-	start()

@@ -132,9 +132,3 @@ class Train_Student(QMainWindow):
         self.mainwindow.show()
         self.close()
 
-
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = Admin_fun()
-    sys.exit(app.exec_())

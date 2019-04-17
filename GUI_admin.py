@@ -51,9 +51,3 @@ class Login_Admin(QMainWindow):
                 self.cams.show()
                 self.close()
 
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = Login_Admin()
-    sys.exit(app.exec_())
-
-

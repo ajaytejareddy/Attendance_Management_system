@@ -118,10 +118,3 @@ class L_Window(QMainWindow):
         self.main = m.App()
         self.main.show()
         self.close()
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = L_Window('1234')
-    sys.exit(app.exec_())
-
-
